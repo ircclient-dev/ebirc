@@ -1,3 +1,11 @@
+## 🚧 **WORK IN PROGRESS** 🚧
+> **Warning**: This project is under active development and is not currently functional. 
+> Use at your own risk.
+
+<div style="background-color: red; color: white; padding: 10px; text-align: center;">
+  WORK IN PROGRESS
+</div>
+
 # ebirc - The Next-Gen IRC Client
 
 Welcome to **ebirc**, your new go-to IRC client that's cross-platform, feature-packed, and future-ready. Built with Tauri, our sleek interface is crafted in HTML, CSS, and TypeScript, while Rust powers the backend for top-notch performance.
