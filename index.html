@@ -4,40 +4,47 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/src/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tauri App</title>
-    <script type="module" src="/src/main.ts" defer></script>
+    <title>ebirc</title>
+    <script type="module" src="/src/main.ts"></script>
   </head>
 
   <body>
-    <main class="container">
-      <h1>Welcome to Tauri</h1>
-
-      <div class="row">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/src/assets/vite.svg" class="logo vite" alt="Vite logo" />
-        </a>
-        <a href="https://tauri.app" target="_blank">
-          <img
-            src="/src/assets/tauri.svg"
-            class="logo tauri"
-            alt="Tauri logo"
-          />
-        </a>
-        <a href="https://www.typescriptlang.org/docs" target="_blank">
-          <img
-            src="/src/assets/typescript.svg"
-            class="logo typescript"
-            alt="typescript logo"
-          />
-        </a>
+    <div class="top-bar">
+      <h1>ebirc</h1>
+    </div>
+    <div class="container">
+      <div class="window-list">
+        <ul>
+          <li>Window 1</li>
+          <li>Window 2
+            <ul>
+              <li>Subwindow 2.1</li>
+              <li>Subwindow 2.2</li>
+            </ul>
+          </li>
+          <li>Window 3</li>
+        </ul>
       </div>
-      <p>Click on the Tauri logo to learn more about the framework</p>
-
-      <form class="row" id="greet-form">
-        <input id="greet-input" placeholder="Enter a name..." />
-        <button type="submit">Greet</button>
-      </form>
-      <p id="greet-msg"></p>
-    </main>
+      <div class="window">
+        <div class="main-content">
+          <div class="output">
+            <ul>
+              <li>Chat message 1</li>
+              <li>Chat message 2</li>
+            </ul>
+          </div>
+          <div class="input">
+            <input type="text" placeholder="Type your message here...">
+            <button type="button">Send</button>
+          </div>  
+        </div>
+        <div class="nicklist">
+          <ul>
+            <li>User 1</li>
+            <li>User 2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
